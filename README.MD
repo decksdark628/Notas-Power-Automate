@@ -8,3 +8,9 @@ Al ser notas tomadas durante un periodo de formación, es posible que no toda la
 
 - [Power Automate](notes/PowerAutomate.md)
 - [Conectores](notes/Conectores.md)
+- [Flujos](notes/Flujos.md)
+
+## Todo
+
+- [ ] Agregar traducciones
+- [ ] Agregar enlaces a documentacion oficial
