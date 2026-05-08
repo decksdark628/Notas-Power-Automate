@@ -6,7 +6,7 @@ Lista de conectores y notas sobre entradas, salidas y caracteristicas relevantes
 
 ### Find records (V3)
 
-#### <img src="https://raw.githubusercontent.com/decksdark628/Notas-Power-Automate/main/icons/square-arrow-right-enter.svg"/> Parametros
+#### <img src="https://raw.githubusercontent.com/decksdark628/Notas-Power-Automate/main/icons/square-arrow-right-enter.svg" style="height:1em; vertical-align:middle;" /> Parametros
 
 - **API category** 
     - La API usada para acceder a los datos. Por defecto usa `v2.0`. En caso esta API no exponga los campos que necesitas, puedes seleccionar tu propia API.
@@ -24,26 +24,26 @@ Lista de conectores y notas sobre entradas, salidas y caracteristicas relevantes
 
 ### Get file properties
 
-#### <img src="https://raw.githubusercontent.com/decksdark628/Notas-Power-Automate/main/icons/square-arrow-right-enter.svg"/> Parametros
+#### <img src="https://raw.githubusercontent.com/decksdark628/Notas-Power-Automate/main/icons/square-arrow-right-enter.svg" style="height:1em; vertical-align:middle;" /> Parametros
 
 - **Id** `integer`
 
-#### <img src="https://raw.githubusercontent.com/decksdark628/Notas-Power-Automate/main/icons/square-arrow-right-exit.svg"/> Salidas
+#### <img src="https://raw.githubusercontent.com/decksdark628/Notas-Power-Automate/main/icons/square-arrow-right-exit.svg" style="height:1em; vertical-align:middle;"/> Salidas
 
 - **File Identifier** `string`
 
 ### Get file content
 
-#### <img src="https://raw.githubusercontent.com/decksdark628/Notas-Power-Automate/main/icons/square-arrow-right-enter.svg"/> Parametros
+#### <img src="https://raw.githubusercontent.com/decksdark628/Notas-Power-Automate/main/icons/square-arrow-right-enter.svg" style="height:1em; vertical-align:middle;" /> Parametros
 
 - **File Identifier** `string`
-#### <img src="https://raw.githubusercontent.com/decksdark628/Notas-Power-Automate/main/icons/square-arrow-right-exit.svg"/> Salidas
+#### <img src="https://raw.githubusercontent.com/decksdark628/Notas-Power-Automate/main/icons/square-arrow-right-exit.svg" style="height:1em; vertical-align:middle;"/> Salidas
 
 - **File Content** `binary`
 
 ### Update item
 
-#### <img src="https://raw.githubusercontent.com/decksdark628/Notas-Power-Automate/main/icons/square-arrow-right-enter.svg"/> Parametros
+#### <img src="https://raw.githubusercontent.com/decksdark628/Notas-Power-Automate/main/icons/square-arrow-right-enter.svg" style="height:1em; vertical-align:middle;" /> Parametros
 
 - **Id** `Integer`
 
@@ -55,13 +55,13 @@ El documento deberá tener por lo menos un campo `control de contenido de texto 
 
 Estos campos solo pueden ser añadidos desde la versión de escritorio de Word, luego de activar "Programador" en la cinta de opciones. (`Archivo > Opciones > Personalizar lista de opciones`)
 
-#### <img src="https://raw.githubusercontent.com/decksdark628/Notas-Power-Automate/main/icons/square-arrow-right-exit.svg"/> Salidas
+#### <img src="https://raw.githubusercontent.com/decksdark628/Notas-Power-Automate/main/icons/square-arrow-right-exit.svg" style="height:1em; vertical-align:middle;"/> Salidas
 
 - **Microsoft Word document** `binary`
 
 ### Convert Word Documento to PDF
 
-#### <img src="https://raw.githubusercontent.com/decksdark628/Notas-Power-Automate/main/icons/square-arrow-right-enter.svg"/> Parametros
+#### <img src="https://raw.githubusercontent.com/decksdark628/Notas-Power-Automate/main/icons/square-arrow-right-enter.svg" style="height:1em; vertical-align:middle;" /> Parametros
 
 - **File** `string`
     - Espera la ruta al documento en relación a la *Biblioteca de documentos* escogida
@@ -69,6 +69,6 @@ Estos campos solo pueden ser añadidos desde la versión de escritorio de Word, 
         - Si el archivo esta dentro de una carpeta usar la ruta. ej: `folder/documento.docx`
         - No encontrará el documento si se da una ruta absoluta. `Shared Documents/documento.docx`
 
-#### <img src="https://raw.githubusercontent.com/decksdark628/Notas-Power-Automate/main/icons/square-arrow-right-exit.svg"/> Salidas
+#### <img src="https://raw.githubusercontent.com/decksdark628/Notas-Power-Automate/main/icons/square-arrow-right-exit.svg" style="height:1em; vertical-align:middle;"/> Salidas
 
 - **PDF document** `binary`
