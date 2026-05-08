@@ -14,6 +14,7 @@
 ## Objetos y acceso a datos
 
 Automate trabaja por detrás con objetos json y sigue una sintaxis propia para acceder a su información. La formula es:
+
 `<donde buscar>('<nombre del obj>')`
 
 Algunos ejemplos:
@@ -23,11 +24,13 @@ Algunos ejemplos:
 - **Salidas de una acción** `outputs('mi acción')`
 
 También se puede añadir `?['mi clave']` para buscar valores específicos dentro del objeto.
+
 Ej: `variables('Persona 1')?['info_contacto']?['telefonos']?['casa']`
 
 ### Sinónimos
 
 `body('mi accion')` es un sinónimo de `outputs('mi accion')?['body']`
+
 Esto es util en algunas acciones porque así podemos ignorar `statusCode`, `headers`, etc. Casi siempre, lo que nos interesa estará dentro de `body`.
 
 ## Serialización de carácteres especiales
@@ -35,4 +38,5 @@ Esto es util en algunas acciones porque así podemos ignorar `statusCode`, `head
 Cuando se trabaja con HTTP (Ej: Conectores de Share Point y Business Central), algunos carácteres como `%`, ` `, `:` pueden ser cifrados a XML (`_x0025_`, `_x0020_`, `_x003A_`) cuando se traducen a strings.
 
 El valor que tomen se puede calcular [consultando este documento](https://www.w3.org/Style/XSL/TestSuite/results/4/XEP/symbol.pdf) o usando sus valores unicode y esta regla de conversión:
+
 `U+<number>` → `_x<number>_`
