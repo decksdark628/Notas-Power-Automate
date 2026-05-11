@@ -11,7 +11,4 @@ Al ser notas tomadas durante un periodo de formación, es posible que no toda la
 - [Flujos](notes/Flujos.md)
 
 ## Todo
-
-- [ ] Agregar traducciones
 - [ ] Agregar one-line summary de cada pagina a contenidos en readme.md
-- [ ] Agregar enlaces a documentacion oficial
